@@ -12,7 +12,7 @@
   --title-text-color: #212121;
   --secondary-bg-color: #f5f4fa;
   --accent-color: #2196f3;
-  --footer-black-color: #000000;
+  --footer-bg-color: #2f303a;
   --secondary-accent-color: #188ce8;
 }
 
@@ -205,7 +205,7 @@ button {
 
 /* footer */
 footer {
-  background-color: var(--footer-black-color);
+  background-color: var(--footer-bg-color);
 }
 
 footer .logo {
