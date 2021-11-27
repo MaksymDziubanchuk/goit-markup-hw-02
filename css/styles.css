@@ -10,9 +10,10 @@
   --primary-white-color: #ffffff;
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --secondary-dg-color: #f5f4fa;
+  --secondary-bg-color: #f5f4fa;
   --accent-color: #2196f3;
   --footer-black-color: #000000;
+  --secondary-accent-color: #188ce8;
 }
 
 body {
@@ -33,6 +34,11 @@ a:focus {
 
 ul {
   list-style-type: none;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
 }
 
 /* header */
@@ -108,6 +114,13 @@ ul {
   letter-spacing: 0.06em;
 
   cursor: pointer;
+
+  padding: 10px 32px;
+}
+
+.main-btn:focus,
+.main-btn:hover {
+  background-color: var(--secondary-accent-color);
 }
 
 .section-title {
@@ -153,6 +166,7 @@ ul {
 /* main portfolio */
 .btn-list .btn {
   color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
 
   font-weight: 500;
   font-size: 16px;
